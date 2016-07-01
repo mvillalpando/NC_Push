@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  cellHome.h
 //  Navigation Controller
 //
 //  Created by Mariela Villalpando on 6/30/16.
@@ -7,10 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "cellHome.h"
 
-@interface Home : UIViewController
-
+@interface cellHome : UITableViewCell
 
 @end
-
