@@ -10,9 +10,6 @@
 #import "cellDestinations.h"
 
 @interface DestinationDetails : UIViewController
-@property NSMutableArray *dTitles;
-@property NSMutableArray *dDescriptions;
-@property NSMutableArray *dPhotos;
 
 
 

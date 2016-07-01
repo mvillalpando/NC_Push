@@ -7,6 +7,7 @@
 //
 
 #import "DestinationDetails.h"
+//#import "Description.h"
 
 @interface DestinationDetails ()
 @property NSMutableArray *dTitles;
@@ -84,14 +85,13 @@
 /**********************************************************************************************/
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     
-    if ([segue.destinationViewController isKindOfClass:[Description class]]) {
-      Description *destination     = [segue destinationViewController];
-      destination.dTitles        = self.stTitleSelected;
-      destination.dDescriptions  = self.stDescriptionSelected;
-      destination.dPhotos        = self.stPhotoSelected;
+    //if ([segue.destinationViewController isKindOfClass:[_dDescriptions class]]) {
+       //Descriptions *destination     = [segue destinationViewController];
+        //destination.dTitles        = self.stTitleSelected;
+        //destination.dDescriptions  = self.stDescriptionSelected;
+        //destination.dPhotos        = self.stPhotoSelected;
         
-    //}
+  // }
 }
-
 
 @end

@@ -79,17 +79,18 @@
                                 <rect key="frame" x="0.0" y="64" width="320" height="216"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="SuM-W1-VSh" userLabel="lblCity">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="San Sebastian del Oeste" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="SuM-W1-VSh" userLabel="lblCity">
                                 <rect key="frame" x="0.0" y="313" width="320" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="e1v-Yy-Edt" userLabel="lblDescription">
-                                <rect key="frame" x="7" y="353" width="306" height="28"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="13" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="e1v-Yy-Edt" userLabel="lblDescription">
+                                <rect key="frame" x="8" y="352" width="305" height="196"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <mutableString key="text">San Sebastián del Oeste es un municipio y población del estado de Jalisco, México. Se localiza al oeste del estado, en la Región Sierra Occidental. Su extensión territorial es de 1400,13 km2. Según el II Conteo de Población y Vivienda de 2005, el municipio tiene 5.626 habitantes y se dedican principalmente al sector primario.2 Es una población minera que tuvo su auge en tiempos de la colonia, llegó a tener hasta 20.000 habitantes; sin embargo su población disminuyó en el siglo XIX a causa del cierre de las minas.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -97,6 +98,11 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="71d-V3-var"/>
+                    <connections>
+                        <outlet property="imgDescription" destination="xnI-pG-I3B" id="65q-V4-LP7"/>
+                        <outlet property="lblCity" destination="SuM-W1-VSh" id="5lc-yl-i1j"/>
+                        <outlet property="lblDescription" destination="e1v-Yy-Edt" id="blW-fP-uIj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Gnr-09-26a" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

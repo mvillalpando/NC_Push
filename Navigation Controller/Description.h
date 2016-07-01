@@ -9,5 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @interface Description : UIViewController
+@property NSMutableArray *dTitles;
+@property NSMutableArray *dDescriptions;
+@property NSMutableArray *dPhotos;
+
+@property (strong, nonatomic) IBOutlet UILabel *lblDescription;
+@property (strong, nonatomic) IBOutlet UILabel *lblCity;
+@property (strong, nonatomic) IBOutlet UIImageView *imgDescription;
 
 @end
