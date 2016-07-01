@@ -16,6 +16,12 @@
 		AB9664451D260B05009190CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB9664431D260B05009190CE /* LaunchScreen.storyboard */; };
 		AB9664521D26112C009190CE /* cellHome.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9664501D26112C009190CE /* cellHome.m */; };
 		AB9664531D26112C009190CE /* cellHome.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB9664511D26112C009190CE /* cellHome.xib */; };
+		AB9664751D262CA5009190CE /* Guadalajara.png in Resources */ = {isa = PBXBuildFile; fileRef = AB9664701D262CA5009190CE /* Guadalajara.png */; };
+		AB9664761D262CA5009190CE /* SanSebastian.png in Resources */ = {isa = PBXBuildFile; fileRef = AB9664711D262CA5009190CE /* SanSebastian.png */; };
+		AB9664771D262CA5009190CE /* Tapalpa.png in Resources */ = {isa = PBXBuildFile; fileRef = AB9664721D262CA5009190CE /* Tapalpa.png */; };
+		AB9664781D262CA5009190CE /* Tequila.png in Resources */ = {isa = PBXBuildFile; fileRef = AB9664731D262CA5009190CE /* Tequila.png */; };
+		AB9664791D262CA5009190CE /* Vallarta.png in Resources */ = {isa = PBXBuildFile; fileRef = AB9664741D262CA5009190CE /* Vallarta.png */; };
+		ABBAACFB1D26BDA0003D4AE3 /* DestinationDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBAACFA1D26BDA0003D4AE3 /* DestinationDetails.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +39,13 @@
 		AB96644F1D26112C009190CE /* cellHome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cellHome.h; sourceTree = "<group>"; };
 		AB9664501D26112C009190CE /* cellHome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cellHome.m; sourceTree = "<group>"; };
 		AB9664511D26112C009190CE /* cellHome.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = cellHome.xib; sourceTree = "<group>"; };
+		AB9664701D262CA5009190CE /* Guadalajara.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Guadalajara.png; sourceTree = "<group>"; };
+		AB9664711D262CA5009190CE /* SanSebastian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SanSebastian.png; sourceTree = "<group>"; };
+		AB9664721D262CA5009190CE /* Tapalpa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tapalpa.png; sourceTree = "<group>"; };
+		AB9664731D262CA5009190CE /* Tequila.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tequila.png; sourceTree = "<group>"; };
+		AB9664741D262CA5009190CE /* Vallarta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Vallarta.png; sourceTree = "<group>"; };
+		ABBAACF91D26BDA0003D4AE3 /* DestinationDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DestinationDetails.h; sourceTree = "<group>"; };
+		ABBAACFA1D26BDA0003D4AE3 /* DestinationDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DestinationDetails.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +78,7 @@
 		AB9664311D260B05009190CE /* Navigation Controller */ = {
 			isa = PBXGroup;
 			children = (
+				AB96646F1D262CA5009190CE /* imgs */,
 				AB96644C1D260B11009190CE /* Main */,
 				AB96644D1D260B1A009190CE /* Controllers */,
 				AB96644E1D2610E3009190CE /* Cells */,
@@ -100,6 +114,8 @@
 			children = (
 				AB9664381D260B05009190CE /* Home.h */,
 				AB9664391D260B05009190CE /* Home.m */,
+				ABBAACF91D26BDA0003D4AE3 /* DestinationDetails.h */,
+				ABBAACFA1D26BDA0003D4AE3 /* DestinationDetails.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -112,6 +128,18 @@
 				AB9664511D26112C009190CE /* cellHome.xib */,
 			);
 			name = Cells;
+			sourceTree = "<group>";
+		};
+		AB96646F1D262CA5009190CE /* imgs */ = {
+			isa = PBXGroup;
+			children = (
+				AB9664701D262CA5009190CE /* Guadalajara.png */,
+				AB9664711D262CA5009190CE /* SanSebastian.png */,
+				AB9664721D262CA5009190CE /* Tapalpa.png */,
+				AB9664731D262CA5009190CE /* Tequila.png */,
+				AB9664741D262CA5009190CE /* Vallarta.png */,
+			);
+			path = imgs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,10 +199,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB9664791D262CA5009190CE /* Vallarta.png in Resources */,
+				AB9664771D262CA5009190CE /* Tapalpa.png in Resources */,
 				AB9664451D260B05009190CE /* LaunchScreen.storyboard in Resources */,
 				AB9664421D260B05009190CE /* Assets.xcassets in Resources */,
+				AB9664781D262CA5009190CE /* Tequila.png in Resources */,
 				AB9664531D26112C009190CE /* cellHome.xib in Resources */,
 				AB96643D1D260B05009190CE /* Main.storyboard in Resources */,
+				AB9664751D262CA5009190CE /* Guadalajara.png in Resources */,
+				AB9664761D262CA5009190CE /* SanSebastian.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,6 +223,7 @@
 				AB9664371D260B05009190CE /* AppDelegate.m in Sources */,
 				AB9664521D26112C009190CE /* cellHome.m in Sources */,
 				AB9664341D260B05009190CE /* main.m in Sources */,
+				ABBAACFB1D26BDA0003D4AE3 /* DestinationDetails.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,6 +372,7 @@
 				AB96644B1D260B05009190CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
