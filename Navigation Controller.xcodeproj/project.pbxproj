@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		AB9664341D260B05009190CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9664331D260B05009190CE /* main.m */; };
 		AB9664371D260B05009190CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9664361D260B05009190CE /* AppDelegate.m */; };
-		AB96643A1D260B05009190CE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9664391D260B05009190CE /* ViewController.m */; };
+		AB96643A1D260B05009190CE /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9664391D260B05009190CE /* Home.m */; };
 		AB96643D1D260B05009190CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB96643B1D260B05009190CE /* Main.storyboard */; };
 		AB9664401D260B05009190CE /* Navigation_Controller.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AB96643E1D260B05009190CE /* Navigation_Controller.xcdatamodeld */; };
 		AB9664421D260B05009190CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB9664411D260B05009190CE /* Assets.xcassets */; };
@@ -21,8 +21,8 @@
 		AB9664331D260B05009190CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AB9664351D260B05009190CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AB9664361D260B05009190CE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AB9664381D260B05009190CE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AB9664391D260B05009190CE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AB9664381D260B05009190CE /* Home.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Home.h; sourceTree = "<group>"; };
+		AB9664391D260B05009190CE /* Home.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Home.m; sourceTree = "<group>"; };
 		AB96643C1D260B05009190CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AB96643F1D260B05009190CE /* Navigation_Controller.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Navigation_Controller.xcdatamodel; sourceTree = "<group>"; };
 		AB9664411D260B05009190CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,10 +60,8 @@
 		AB9664311D260B05009190CE /* Navigation Controller */ = {
 			isa = PBXGroup;
 			children = (
-				AB9664351D260B05009190CE /* AppDelegate.h */,
-				AB9664361D260B05009190CE /* AppDelegate.m */,
-				AB9664381D260B05009190CE /* ViewController.h */,
-				AB9664391D260B05009190CE /* ViewController.m */,
+				AB96644C1D260B11009190CE /* Main */,
+				AB96644D1D260B1A009190CE /* Controllers */,
 				AB96643B1D260B05009190CE /* Main.storyboard */,
 				AB9664411D260B05009190CE /* Assets.xcassets */,
 				AB9664431D260B05009190CE /* LaunchScreen.storyboard */,
@@ -80,6 +78,24 @@
 				AB9664331D260B05009190CE /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AB96644C1D260B11009190CE /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				AB9664351D260B05009190CE /* AppDelegate.h */,
+				AB9664361D260B05009190CE /* AppDelegate.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		AB96644D1D260B1A009190CE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AB9664381D260B05009190CE /* Home.h */,
+				AB9664391D260B05009190CE /* Home.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,7 +168,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB96643A1D260B05009190CE /* ViewController.m in Sources */,
+				AB96643A1D260B05009190CE /* Home.m in Sources */,
 				AB9664401D260B05009190CE /* Navigation_Controller.xcdatamodeld in Sources */,
 				AB9664371D260B05009190CE /* AppDelegate.m in Sources */,
 				AB9664341D260B05009190CE /* main.m in Sources */,
