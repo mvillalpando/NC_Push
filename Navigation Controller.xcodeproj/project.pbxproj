@@ -16,12 +16,22 @@
 		AB9664451D260B05009190CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB9664431D260B05009190CE /* LaunchScreen.storyboard */; };
 		AB9664521D26112C009190CE /* cellHome.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9664501D26112C009190CE /* cellHome.m */; };
 		AB9664531D26112C009190CE /* cellHome.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB9664511D26112C009190CE /* cellHome.xib */; };
-		AB9664751D262CA5009190CE /* Guadalajara.png in Resources */ = {isa = PBXBuildFile; fileRef = AB9664701D262CA5009190CE /* Guadalajara.png */; };
-		AB9664761D262CA5009190CE /* SanSebastian.png in Resources */ = {isa = PBXBuildFile; fileRef = AB9664711D262CA5009190CE /* SanSebastian.png */; };
-		AB9664771D262CA5009190CE /* Tapalpa.png in Resources */ = {isa = PBXBuildFile; fileRef = AB9664721D262CA5009190CE /* Tapalpa.png */; };
-		AB9664781D262CA5009190CE /* Tequila.png in Resources */ = {isa = PBXBuildFile; fileRef = AB9664731D262CA5009190CE /* Tequila.png */; };
-		AB9664791D262CA5009190CE /* Vallarta.png in Resources */ = {isa = PBXBuildFile; fileRef = AB9664741D262CA5009190CE /* Vallarta.png */; };
 		ABBAACFB1D26BDA0003D4AE3 /* DestinationDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBAACFA1D26BDA0003D4AE3 /* DestinationDetails.m */; };
+		ABBAAD201D26E760003D4AE3 /* Chiapas.png in Resources */ = {isa = PBXBuildFile; fileRef = ABBAAD141D26E760003D4AE3 /* Chiapas.png */; };
+		ABBAAD211D26E760003D4AE3 /* Guadalajara.png in Resources */ = {isa = PBXBuildFile; fileRef = ABBAAD151D26E760003D4AE3 /* Guadalajara.png */; };
+		ABBAAD221D26E760003D4AE3 /* Jalisco.png in Resources */ = {isa = PBXBuildFile; fileRef = ABBAAD161D26E760003D4AE3 /* Jalisco.png */; };
+		ABBAAD231D26E760003D4AE3 /* QuintanaRoo.png in Resources */ = {isa = PBXBuildFile; fileRef = ABBAAD171D26E760003D4AE3 /* QuintanaRoo.png */; };
+		ABBAAD241D26E760003D4AE3 /* SanSebastian.png in Resources */ = {isa = PBXBuildFile; fileRef = ABBAAD181D26E760003D4AE3 /* SanSebastian.png */; };
+		ABBAAD251D26E760003D4AE3 /* Sinaloa.png in Resources */ = {isa = PBXBuildFile; fileRef = ABBAAD191D26E760003D4AE3 /* Sinaloa.png */; };
+		ABBAAD261D26E760003D4AE3 /* Sonora.png in Resources */ = {isa = PBXBuildFile; fileRef = ABBAAD1A1D26E760003D4AE3 /* Sonora.png */; };
+		ABBAAD271D26E760003D4AE3 /* Tapalpa.png in Resources */ = {isa = PBXBuildFile; fileRef = ABBAAD1B1D26E760003D4AE3 /* Tapalpa.png */; };
+		ABBAAD281D26E760003D4AE3 /* Tequila.png in Resources */ = {isa = PBXBuildFile; fileRef = ABBAAD1C1D26E760003D4AE3 /* Tequila.png */; };
+		ABBAAD291D26E760003D4AE3 /* Vallarta.png in Resources */ = {isa = PBXBuildFile; fileRef = ABBAAD1D1D26E760003D4AE3 /* Vallarta.png */; };
+		ABBAAD2B1D26E760003D4AE3 /* Zacatecas.png in Resources */ = {isa = PBXBuildFile; fileRef = ABBAAD1F1D26E760003D4AE3 /* Zacatecas.png */; };
+		ABBAAD321D270444003D4AE3 /* cellDestinations.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBAAD301D270444003D4AE3 /* cellDestinations.m */; };
+		ABBAAD331D270444003D4AE3 /* cellDestinations.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABBAAD311D270444003D4AE3 /* cellDestinations.xib */; };
+		ABBAAD351D27184A003D4AE3 /* Zapopan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABBAAD341D27184A003D4AE3 /* Zapopan.jpg */; };
+		ABBAAD381D27199D003D4AE3 /* Description.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBAAD371D27199D003D4AE3 /* Description.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,13 +49,25 @@
 		AB96644F1D26112C009190CE /* cellHome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cellHome.h; sourceTree = "<group>"; };
 		AB9664501D26112C009190CE /* cellHome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cellHome.m; sourceTree = "<group>"; };
 		AB9664511D26112C009190CE /* cellHome.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = cellHome.xib; sourceTree = "<group>"; };
-		AB9664701D262CA5009190CE /* Guadalajara.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Guadalajara.png; sourceTree = "<group>"; };
-		AB9664711D262CA5009190CE /* SanSebastian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SanSebastian.png; sourceTree = "<group>"; };
-		AB9664721D262CA5009190CE /* Tapalpa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tapalpa.png; sourceTree = "<group>"; };
-		AB9664731D262CA5009190CE /* Tequila.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tequila.png; sourceTree = "<group>"; };
-		AB9664741D262CA5009190CE /* Vallarta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Vallarta.png; sourceTree = "<group>"; };
 		ABBAACF91D26BDA0003D4AE3 /* DestinationDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DestinationDetails.h; sourceTree = "<group>"; };
 		ABBAACFA1D26BDA0003D4AE3 /* DestinationDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DestinationDetails.m; sourceTree = "<group>"; };
+		ABBAAD141D26E760003D4AE3 /* Chiapas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chiapas.png; sourceTree = "<group>"; };
+		ABBAAD151D26E760003D4AE3 /* Guadalajara.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Guadalajara.png; sourceTree = "<group>"; };
+		ABBAAD161D26E760003D4AE3 /* Jalisco.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Jalisco.png; sourceTree = "<group>"; };
+		ABBAAD171D26E760003D4AE3 /* QuintanaRoo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = QuintanaRoo.png; sourceTree = "<group>"; };
+		ABBAAD181D26E760003D4AE3 /* SanSebastian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SanSebastian.png; sourceTree = "<group>"; };
+		ABBAAD191D26E760003D4AE3 /* Sinaloa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sinaloa.png; sourceTree = "<group>"; };
+		ABBAAD1A1D26E760003D4AE3 /* Sonora.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sonora.png; sourceTree = "<group>"; };
+		ABBAAD1B1D26E760003D4AE3 /* Tapalpa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tapalpa.png; sourceTree = "<group>"; };
+		ABBAAD1C1D26E760003D4AE3 /* Tequila.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tequila.png; sourceTree = "<group>"; };
+		ABBAAD1D1D26E760003D4AE3 /* Vallarta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Vallarta.png; sourceTree = "<group>"; };
+		ABBAAD1F1D26E760003D4AE3 /* Zacatecas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Zacatecas.png; sourceTree = "<group>"; };
+		ABBAAD2F1D270444003D4AE3 /* cellDestinations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cellDestinations.h; sourceTree = "<group>"; };
+		ABBAAD301D270444003D4AE3 /* cellDestinations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cellDestinations.m; sourceTree = "<group>"; };
+		ABBAAD311D270444003D4AE3 /* cellDestinations.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = cellDestinations.xib; sourceTree = "<group>"; };
+		ABBAAD341D27184A003D4AE3 /* Zapopan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Zapopan.jpg; sourceTree = "<group>"; };
+		ABBAAD361D27199D003D4AE3 /* Description.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Description.h; sourceTree = "<group>"; };
+		ABBAAD371D27199D003D4AE3 /* Description.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Description.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +100,7 @@
 		AB9664311D260B05009190CE /* Navigation Controller */ = {
 			isa = PBXGroup;
 			children = (
-				AB96646F1D262CA5009190CE /* imgs */,
+				ABBAAD131D26E760003D4AE3 /* imgs */,
 				AB96644C1D260B11009190CE /* Main */,
 				AB96644D1D260B1A009190CE /* Controllers */,
 				AB96644E1D2610E3009190CE /* Cells */,
@@ -116,6 +138,8 @@
 				AB9664391D260B05009190CE /* Home.m */,
 				ABBAACF91D26BDA0003D4AE3 /* DestinationDetails.h */,
 				ABBAACFA1D26BDA0003D4AE3 /* DestinationDetails.m */,
+				ABBAAD361D27199D003D4AE3 /* Description.h */,
+				ABBAAD371D27199D003D4AE3 /* Description.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -126,18 +150,28 @@
 				AB96644F1D26112C009190CE /* cellHome.h */,
 				AB9664501D26112C009190CE /* cellHome.m */,
 				AB9664511D26112C009190CE /* cellHome.xib */,
+				ABBAAD2F1D270444003D4AE3 /* cellDestinations.h */,
+				ABBAAD301D270444003D4AE3 /* cellDestinations.m */,
+				ABBAAD311D270444003D4AE3 /* cellDestinations.xib */,
 			);
 			name = Cells;
 			sourceTree = "<group>";
 		};
-		AB96646F1D262CA5009190CE /* imgs */ = {
+		ABBAAD131D26E760003D4AE3 /* imgs */ = {
 			isa = PBXGroup;
 			children = (
-				AB9664701D262CA5009190CE /* Guadalajara.png */,
-				AB9664711D262CA5009190CE /* SanSebastian.png */,
-				AB9664721D262CA5009190CE /* Tapalpa.png */,
-				AB9664731D262CA5009190CE /* Tequila.png */,
-				AB9664741D262CA5009190CE /* Vallarta.png */,
+				ABBAAD341D27184A003D4AE3 /* Zapopan.jpg */,
+				ABBAAD141D26E760003D4AE3 /* Chiapas.png */,
+				ABBAAD151D26E760003D4AE3 /* Guadalajara.png */,
+				ABBAAD161D26E760003D4AE3 /* Jalisco.png */,
+				ABBAAD171D26E760003D4AE3 /* QuintanaRoo.png */,
+				ABBAAD181D26E760003D4AE3 /* SanSebastian.png */,
+				ABBAAD191D26E760003D4AE3 /* Sinaloa.png */,
+				ABBAAD1A1D26E760003D4AE3 /* Sonora.png */,
+				ABBAAD1B1D26E760003D4AE3 /* Tapalpa.png */,
+				ABBAAD1C1D26E760003D4AE3 /* Tequila.png */,
+				ABBAAD1D1D26E760003D4AE3 /* Vallarta.png */,
+				ABBAAD1F1D26E760003D4AE3 /* Zacatecas.png */,
 			);
 			path = imgs;
 			sourceTree = "<group>";
@@ -199,15 +233,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB9664791D262CA5009190CE /* Vallarta.png in Resources */,
-				AB9664771D262CA5009190CE /* Tapalpa.png in Resources */,
 				AB9664451D260B05009190CE /* LaunchScreen.storyboard in Resources */,
+				ABBAAD281D26E760003D4AE3 /* Tequila.png in Resources */,
+				ABBAAD261D26E760003D4AE3 /* Sonora.png in Resources */,
 				AB9664421D260B05009190CE /* Assets.xcassets in Resources */,
-				AB9664781D262CA5009190CE /* Tequila.png in Resources */,
+				ABBAAD201D26E760003D4AE3 /* Chiapas.png in Resources */,
+				ABBAAD251D26E760003D4AE3 /* Sinaloa.png in Resources */,
+				ABBAAD271D26E760003D4AE3 /* Tapalpa.png in Resources */,
+				ABBAAD231D26E760003D4AE3 /* QuintanaRoo.png in Resources */,
+				ABBAAD211D26E760003D4AE3 /* Guadalajara.png in Resources */,
 				AB9664531D26112C009190CE /* cellHome.xib in Resources */,
+				ABBAAD331D270444003D4AE3 /* cellDestinations.xib in Resources */,
+				ABBAAD291D26E760003D4AE3 /* Vallarta.png in Resources */,
 				AB96643D1D260B05009190CE /* Main.storyboard in Resources */,
-				AB9664751D262CA5009190CE /* Guadalajara.png in Resources */,
-				AB9664761D262CA5009190CE /* SanSebastian.png in Resources */,
+				ABBAAD221D26E760003D4AE3 /* Jalisco.png in Resources */,
+				ABBAAD241D26E760003D4AE3 /* SanSebastian.png in Resources */,
+				ABBAAD351D27184A003D4AE3 /* Zapopan.jpg in Resources */,
+				ABBAAD2B1D26E760003D4AE3 /* Zacatecas.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,6 +263,8 @@
 				AB96643A1D260B05009190CE /* Home.m in Sources */,
 				AB9664401D260B05009190CE /* Navigation_Controller.xcdatamodeld in Sources */,
 				AB9664371D260B05009190CE /* AppDelegate.m in Sources */,
+				ABBAAD321D270444003D4AE3 /* cellDestinations.m in Sources */,
+				ABBAAD381D27199D003D4AE3 /* Description.m in Sources */,
 				AB9664521D26112C009190CE /* cellHome.m in Sources */,
 				AB9664341D260B05009190CE /* main.m in Sources */,
 				ABBAACFB1D26BDA0003D4AE3 /* DestinationDetails.m in Sources */,

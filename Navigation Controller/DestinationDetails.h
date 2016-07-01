@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "cellDestinations.h"
 
 @interface DestinationDetails : UIViewController
+@property NSMutableArray *dTitles;
+@property NSMutableArray *dDescriptions;
+@property NSMutableArray *dPhotos;
+
+
 
 @end
