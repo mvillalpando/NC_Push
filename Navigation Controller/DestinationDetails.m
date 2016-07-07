@@ -9,7 +9,7 @@
 #import "DestinationDetails.h"
 //#import "Description.h"
 
-@interface DestinationDetails ()
+@interface DestinationDetails()
 @property NSMutableArray *dTitles;
 @property NSMutableArray *dDescriptions;
 @property NSMutableArray *dPhotos;
@@ -18,13 +18,13 @@
 @property NSString *stDescriptionSelected;
 @property NSString *stPhotoSelected;
 
-
 @end
+@implementation DestinationDetails
 
 /**********************************************************************************************/
 #pragma mark - Initialization methods
 /**********************************************************************************************/
-@implementation DestinationDetails
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -58,6 +58,32 @@
     return 190;
 }
 //-------------------------------------------------------------------------------
+/*-(void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath {
+    //1. Setup the CATransform3D structure
+    CATransform3D rotation;
+    rotation = CATransform3DMakeRotation( (90.0*M_PI)/180, 0.0, 0.7, 0.4);
+    rotation.m34 = 1.0/ -600;
+    
+    //2. Define the initial state (Before the animation)
+    cell.layer.shadowColor = [[UIColor blackColor]CGColor];
+    cell.layer.shadowOffset = CGSizeMake(10, 10);
+    cell.alpha = 0;
+    
+    cell.layer.transform = rotation;
+    cell.layer.anchorPoint = CGPointMake(0, 0.5);
+    
+    //3. Define the final state (After the animation) and commit the animation
+    [UIView beginAnimations:@"rotation" context:NULL];
+    [UIView setAnimationDuration:0.4];
+    cell.layer.transform = CATransform3DIdentity;
+    cell.alpha = 1;
+    cell.layer.shadowOffset = CGSizeMake(0, 0);
+    
+    //Reassure that cell its in its place (WaGo)
+    cell.frame = CGRectMake(0, cell.frame.origin.y, cell.frame.size.width, cell.frame.size.height);
+    [UIView commitAnimations];
+}*/
+//-------------------------------------------------------------------------------
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     //Initialize cells
     cellDestinations *cell = (cellDestinations *)[tableView dequeueReusableCellWithIdentifier:@"cellDestinations"];
@@ -83,15 +109,16 @@
 /**********************************************************************************************/
 #pragma mark - Navigation
 /**********************************************************************************************/
+
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     
-    //if ([segue.destinationViewController isKindOfClass:[_dDescriptions class]]) {
-       //Descriptions *destination     = [segue destinationViewController];
-        //destination.dTitles        = self.stTitleSelected;
-        //destination.dDescriptions  = self.stDescriptionSelected;
-        //destination.dPhotos        = self.stPhotoSelected;
+    if ([segue.destinationViewController isKindOfClass:[DescriptionCity class]]) {
+        DescriptionCity *destination     = [segue destinationViewController];
+        destination.dTitles        = self.stTitleSelected;
+        destination.dDescriptions  = self.stDescriptionSelected;
+        destination.dPhotos        = self.stPhotoSelected;
         
-  // }
+    }
 }
 
 @end

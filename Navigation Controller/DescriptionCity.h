@@ -8,10 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface Description : UIViewController
-@property NSMutableArray *dTitles;
-@property NSMutableArray *dDescriptions;
-@property NSMutableArray *dPhotos;
+@interface DescriptionCity : UIViewController
+@property NSString *dTitles;
+@property NSString *dDescriptions;
+@property NSString *dPhotos;
 
 @property (strong, nonatomic) IBOutlet UILabel *lblDescription;
 @property (strong, nonatomic) IBOutlet UILabel *lblCity;

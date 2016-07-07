@@ -67,10 +67,10 @@
             </objects>
             <point key="canvasLocation" x="612" y="272"/>
         </scene>
-        <!--Description-->
+        <!--Description City-->
         <scene sceneID="wye-fb-xEL">
             <objects>
-                <viewController storyboardIdentifier="Description" id="5d7-7m-O8q" customClass="Description" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Description" id="5d7-7m-O8q" customClass="DescriptionCity" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Zb9-MA-KzV">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -89,7 +89,7 @@
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="13" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="e1v-Yy-Edt" userLabel="lblDescription">
                                 <rect key="frame" x="8" y="352" width="305" height="196"/>
                                 <autoresizingMask key="autoresizingMask"/>
-                                <mutableString key="text">San Sebastián del Oeste es un municipio y población del estado de Jalisco, México. Se localiza al oeste del estado, en la Región Sierra Occidental. Su extensión territorial es de 1400,13 km2. Según el II Conteo de Población y Vivienda de 2005, el municipio tiene 5.626 habitantes y se dedican principalmente al sector primario.2 Es una población minera que tuvo su auge en tiempos de la colonia, llegó a tener hasta 20.000 habitantes; sin embargo su población disminuyó en el siglo XIX a causa del cierre de las minas.</mutableString>
+                                <string key="text">San Sebastián del Oeste es un municipio y población del estado de Jalisco, México. Se localiza al oeste del estado, en la Región Sierra Occidental. Su extensión territorial es de 1400,13 km2. Según el II Conteo de Población y Vivienda de 2005, el municipio tiene 5.626 habitantes y se dedican principalmente al sector primario.2 Es una población minera que tuvo su auge en tiempos de la colonia, llegó a tener hasta 20.000 habitantes; sin embargo su población disminuyó en el siglo XIX a causa del cierre de las minas.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>

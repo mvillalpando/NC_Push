@@ -31,7 +31,7 @@
 		ABBAAD321D270444003D4AE3 /* cellDestinations.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBAAD301D270444003D4AE3 /* cellDestinations.m */; };
 		ABBAAD331D270444003D4AE3 /* cellDestinations.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABBAAD311D270444003D4AE3 /* cellDestinations.xib */; };
 		ABBAAD351D27184A003D4AE3 /* Zapopan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABBAAD341D27184A003D4AE3 /* Zapopan.jpg */; };
-		ABBAAD381D27199D003D4AE3 /* Description.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBAAD371D27199D003D4AE3 /* Description.m */; };
+		ABBAAD381D27199D003D4AE3 /* DescriptionCity.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBAAD371D27199D003D4AE3 /* DescriptionCity.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,8 +66,8 @@
 		ABBAAD301D270444003D4AE3 /* cellDestinations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cellDestinations.m; sourceTree = "<group>"; };
 		ABBAAD311D270444003D4AE3 /* cellDestinations.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = cellDestinations.xib; sourceTree = "<group>"; };
 		ABBAAD341D27184A003D4AE3 /* Zapopan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Zapopan.jpg; sourceTree = "<group>"; };
-		ABBAAD361D27199D003D4AE3 /* Description.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Description.h; sourceTree = "<group>"; };
-		ABBAAD371D27199D003D4AE3 /* Description.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Description.m; sourceTree = "<group>"; };
+		ABBAAD361D27199D003D4AE3 /* DescriptionCity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DescriptionCity.h; sourceTree = "<group>"; };
+		ABBAAD371D27199D003D4AE3 /* DescriptionCity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DescriptionCity.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,8 +138,8 @@
 				AB9664391D260B05009190CE /* Home.m */,
 				ABBAACF91D26BDA0003D4AE3 /* DestinationDetails.h */,
 				ABBAACFA1D26BDA0003D4AE3 /* DestinationDetails.m */,
-				ABBAAD361D27199D003D4AE3 /* Description.h */,
-				ABBAAD371D27199D003D4AE3 /* Description.m */,
+				ABBAAD361D27199D003D4AE3 /* DescriptionCity.h */,
+				ABBAAD371D27199D003D4AE3 /* DescriptionCity.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -264,7 +264,7 @@
 				AB9664401D260B05009190CE /* Navigation_Controller.xcdatamodeld in Sources */,
 				AB9664371D260B05009190CE /* AppDelegate.m in Sources */,
 				ABBAAD321D270444003D4AE3 /* cellDestinations.m in Sources */,
-				ABBAAD381D27199D003D4AE3 /* Description.m in Sources */,
+				ABBAAD381D27199D003D4AE3 /* DescriptionCity.m in Sources */,
 				AB9664521D26112C009190CE /* cellHome.m in Sources */,
 				AB9664341D260B05009190CE /* main.m in Sources */,
 				ABBAACFB1D26BDA0003D4AE3 /* DestinationDetails.m in Sources */,

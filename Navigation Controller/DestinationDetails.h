@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "cellDestinations.h"
+#import "DescriptionCity.h"
 
 @interface DestinationDetails : UIViewController
 
