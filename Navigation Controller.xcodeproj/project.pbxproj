@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB6FAE731D37408D00390BAE /* Zapopan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB6FAE721D37408D00390BAE /* Zapopan.jpg */; };
 		AB9664341D260B05009190CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9664331D260B05009190CE /* main.m */; };
 		AB9664371D260B05009190CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9664361D260B05009190CE /* AppDelegate.m */; };
 		AB96643A1D260B05009190CE /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9664391D260B05009190CE /* Home.m */; };
@@ -30,11 +31,11 @@
 		ABBAAD2B1D26E760003D4AE3 /* Zacatecas.png in Resources */ = {isa = PBXBuildFile; fileRef = ABBAAD1F1D26E760003D4AE3 /* Zacatecas.png */; };
 		ABBAAD321D270444003D4AE3 /* cellDestinations.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBAAD301D270444003D4AE3 /* cellDestinations.m */; };
 		ABBAAD331D270444003D4AE3 /* cellDestinations.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABBAAD311D270444003D4AE3 /* cellDestinations.xib */; };
-		ABBAAD351D27184A003D4AE3 /* Zapopan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABBAAD341D27184A003D4AE3 /* Zapopan.jpg */; };
 		ABBAAD381D27199D003D4AE3 /* DescriptionCity.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBAAD371D27199D003D4AE3 /* DescriptionCity.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AB6FAE721D37408D00390BAE /* Zapopan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Zapopan.jpg; sourceTree = "<group>"; };
 		AB96642F1D260B05009190CE /* Navigation Controller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Navigation Controller.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB9664331D260B05009190CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AB9664351D260B05009190CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -65,7 +66,6 @@
 		ABBAAD2F1D270444003D4AE3 /* cellDestinations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cellDestinations.h; sourceTree = "<group>"; };
 		ABBAAD301D270444003D4AE3 /* cellDestinations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cellDestinations.m; sourceTree = "<group>"; };
 		ABBAAD311D270444003D4AE3 /* cellDestinations.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = cellDestinations.xib; sourceTree = "<group>"; };
-		ABBAAD341D27184A003D4AE3 /* Zapopan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Zapopan.jpg; sourceTree = "<group>"; };
 		ABBAAD361D27199D003D4AE3 /* DescriptionCity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DescriptionCity.h; sourceTree = "<group>"; };
 		ABBAAD371D27199D003D4AE3 /* DescriptionCity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DescriptionCity.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -160,7 +160,7 @@
 		ABBAAD131D26E760003D4AE3 /* imgs */ = {
 			isa = PBXGroup;
 			children = (
-				ABBAAD341D27184A003D4AE3 /* Zapopan.jpg */,
+				AB6FAE721D37408D00390BAE /* Zapopan.jpg */,
 				ABBAAD141D26E760003D4AE3 /* Chiapas.png */,
 				ABBAAD151D26E760003D4AE3 /* Guadalajara.png */,
 				ABBAAD161D26E760003D4AE3 /* Jalisco.png */,
@@ -248,7 +248,7 @@
 				AB96643D1D260B05009190CE /* Main.storyboard in Resources */,
 				ABBAAD221D26E760003D4AE3 /* Jalisco.png in Resources */,
 				ABBAAD241D26E760003D4AE3 /* SanSebastian.png in Resources */,
-				ABBAAD351D27184A003D4AE3 /* Zapopan.jpg in Resources */,
+				AB6FAE731D37408D00390BAE /* Zapopan.jpg in Resources */,
 				ABBAAD2B1D26E760003D4AE3 /* Zacatecas.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -41,8 +41,7 @@
     self.dTitles   = [[NSMutableArray alloc] initWithObjects: @"Guadalajara", @"San Sebastian del Oeste", @"Zapopan", @"Tequila", @"Tapalpa", nil];
      self.dPhotos   = [[NSMutableArray alloc] initWithObjects: @"Guadalajara.png", @"SanSebastian.png", @"Zapopan.jpg", @"Tequila.png", @"Tapalpa.png", nil];
      self.dDescriptions   = [[NSMutableArray alloc] initWithObjects: @"Se localiza en el occidente de México, al centro de Jalisco, en la zona geográfica conocida como Valle de Atemajac. ", @" Se localiza al oeste del estado, en la Región Sierra Occidental. Su extensión territorial es de 1400,13 km2", @"Se localiza en la región centro del estado, en la macro región del Bajío Occidente o Centro Occidente de México", @"El municipio de Tequila está situado en diferentes relieves, tiene pocas tierras planas, a excepción de algunos pequeños valles, su orografía es muy irregular.", @"Tapalpa es un municipio y población del estado de Jalisco, México. Se localiza en la Región Sur, aproximadamente a 118 kilómetros de Guadalajara", nil];
-    
-}
+    }
 /**********************************************************************************************/
 #pragma mark - Table source and delegate methods
 /**********************************************************************************************/
@@ -52,6 +51,7 @@
 //-------------------------------------------------------------------------------
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     return self.dTitles.count;
+    
 }
 //-------------------------------------------------------------------------------
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
