@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		68E79CFA1D393CCE00889F21 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 68E79CF91D393CCE00889F21 /* Podfile */; };
+		68E79CFC1D3954A800889F21 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E79CFB1D3954A800889F21 /* libz.tbd */; };
+		68E79CFE1D3954D200889F21 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E79CFD1D3954D200889F21 /* libstdc++.tbd */; };
+		99E95891F746C586DE70F10B /* Pods_Navigation_Controller.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E52CB98C35050521B690156 /* Pods_Navigation_Controller.framework */; };
 		AB6FAE731D37408D00390BAE /* Zapopan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB6FAE721D37408D00390BAE /* Zapopan.jpg */; };
 		AB9664341D260B05009190CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9664331D260B05009190CE /* main.m */; };
 		AB9664371D260B05009190CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9664361D260B05009190CE /* AppDelegate.m */; };
@@ -35,6 +39,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E52CB98C35050521B690156 /* Pods_Navigation_Controller.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Navigation_Controller.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		551E23EFF8C93879D5D05A51 /* Pods-Navigation Controller.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Navigation Controller.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Navigation Controller/Pods-Navigation Controller.debug.xcconfig"; sourceTree = "<group>"; };
+		68E79CF91D393CCE00889F21 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		68E79CFB1D3954A800889F21 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		68E79CFD1D3954D200889F21 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
 		AB6FAE721D37408D00390BAE /* Zapopan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Zapopan.jpg; sourceTree = "<group>"; };
 		AB96642F1D260B05009190CE /* Navigation Controller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Navigation Controller.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB9664331D260B05009190CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -68,6 +77,7 @@
 		ABBAAD311D270444003D4AE3 /* cellDestinations.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = cellDestinations.xib; sourceTree = "<group>"; };
 		ABBAAD361D27199D003D4AE3 /* DescriptionCity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DescriptionCity.h; sourceTree = "<group>"; };
 		ABBAAD371D27199D003D4AE3 /* DescriptionCity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DescriptionCity.m; sourceTree = "<group>"; };
+		BE1D3F5260813A93A25C517F /* Pods-Navigation Controller.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Navigation Controller.release.xcconfig"; path = "Pods/Target Support Files/Pods-Navigation Controller/Pods-Navigation Controller.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,17 +85,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68E79CFE1D3954D200889F21 /* libstdc++.tbd in Frameworks */,
+				68E79CFC1D3954A800889F21 /* libz.tbd in Frameworks */,
+				99E95891F746C586DE70F10B /* Pods_Navigation_Controller.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		681E4EE3E64E3E17476FAAC1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68E79CFD1D3954D200889F21 /* libstdc++.tbd */,
+				68E79CFB1D3954A800889F21 /* libz.tbd */,
+				0E52CB98C35050521B690156 /* Pods_Navigation_Controller.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AB9664261D260B05009190CE = {
 			isa = PBXGroup;
 			children = (
+				68E79CF91D393CCE00889F21 /* Podfile */,
 				AB9664311D260B05009190CE /* Navigation Controller */,
 				AB9664301D260B05009190CE /* Products */,
+				B979A80435B414254F6AC36D /* Pods */,
+				681E4EE3E64E3E17476FAAC1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -176,6 +202,15 @@
 			path = imgs;
 			sourceTree = "<group>";
 		};
+		B979A80435B414254F6AC36D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				551E23EFF8C93879D5D05A51 /* Pods-Navigation Controller.debug.xcconfig */,
+				BE1D3F5260813A93A25C517F /* Pods-Navigation Controller.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -183,9 +218,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AB9664491D260B05009190CE /* Build configuration list for PBXNativeTarget "Navigation Controller" */;
 			buildPhases = (
+				C58081A553029637FB060A1F /* [CP] Check Pods Manifest.lock */,
 				AB96642B1D260B05009190CE /* Sources */,
 				AB96642C1D260B05009190CE /* Frameworks */,
 				AB96642D1D260B05009190CE /* Resources */,
+				AEEB94234A5D63ACE81D83C4 /* [CP] Embed Pods Frameworks */,
+				7741CEE0FF64FC1816801A0E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -239,6 +277,7 @@
 				AB9664421D260B05009190CE /* Assets.xcassets in Resources */,
 				ABBAAD201D26E760003D4AE3 /* Chiapas.png in Resources */,
 				ABBAAD251D26E760003D4AE3 /* Sinaloa.png in Resources */,
+				68E79CFA1D393CCE00889F21 /* Podfile in Resources */,
 				ABBAAD271D26E760003D4AE3 /* Tapalpa.png in Resources */,
 				ABBAAD231D26E760003D4AE3 /* QuintanaRoo.png in Resources */,
 				ABBAAD211D26E760003D4AE3 /* Guadalajara.png in Resources */,
@@ -254,6 +293,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7741CEE0FF64FC1816801A0E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Navigation Controller/Pods-Navigation Controller-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AEEB94234A5D63ACE81D83C4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Navigation Controller/Pods-Navigation Controller-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C58081A553029637FB060A1F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AB96642B1D260B05009190CE /* Sources */ = {
@@ -377,6 +464,7 @@
 		};
 		AB96644A1D260B05009190CE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 551E23EFF8C93879D5D05A51 /* Pods-Navigation Controller.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Navigation Controller/Info.plist";
@@ -388,6 +476,7 @@
 		};
 		AB96644B1D260B05009190CE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE1D3F5260813A93A25C517F /* Pods-Navigation Controller.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Navigation Controller/Info.plist";
